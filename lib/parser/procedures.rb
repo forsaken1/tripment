@@ -22,7 +22,7 @@ module Parser
     ]
 
     def run
-      html = open(URL)
+      html = URI.open(URL).read
       document = Nokogiri::HTML(html)
       storage = Storage.new(Procedure)
       
