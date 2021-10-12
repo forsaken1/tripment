@@ -8,6 +8,9 @@ module Parser
         @block_title = nil
       end
 
+      # the algo takes a title
+      # then moves below and trying to find a list
+      # after it the algo parses the list
       def run
         title = document.css(title_id).first
         ul = title.parent.next.next

@@ -21,6 +21,9 @@ module Parser
       Blocks::Therapeutic
     ]
 
+    # the algo runs by blocks on the page
+    # and extract a data
+    # then storage saves the data
     def run
       html = URI.open(URL).read
       document = Nokogiri::HTML(html)
