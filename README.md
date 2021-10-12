@@ -1,24 +1,28 @@
-# README
+# Tripment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+```shell
+bundle install
+bundle exec rails db:create db:migrate
+```
 
-* Ruby version
+## Usage
 
-* System dependencies
+Run server
 
-* Configuration
+```
+bundle exec rails s
+```
 
-* Database creation
+Parse the data
 
-* Database initialization
+```
+bundle exec rake parse:procedures
+```
 
-* How to run the test suite
+## Tests
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bundle exec rspec
+```
