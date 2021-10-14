@@ -1,8 +1,8 @@
 # Tripment
 
-1. Parsing
-2. API
-3. Interface (optional)
+1. Parsing (https://github.com/forsaken1/tripment/pull/1/files)
+2. API (https://github.com/forsaken1/tripment/pull/2/files)
+3. Interface (optional) (https://github.com/forsaken1/tripment/pull/3)
 
 ## Installation
 
