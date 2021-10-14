@@ -14,7 +14,6 @@ const procedure = {
   effects: (dispatch) => ({
     fetchProcedures(search) {
       axios(Route.procedures(search))
-        // .then(res => res.json())
         .then(res => {
           dispatch.procedure.fetchProceduresReducer(res.data.data)
         })
