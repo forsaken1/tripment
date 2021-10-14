@@ -13,8 +13,8 @@ gem 'puma', '~> 5.0'
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 5.0'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.7'
+# Build JSON APIs with ease.
+gem 'jsonapi-serializer'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -52,6 +52,9 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
+  gem "factory_bot_rails", '~> 6.2'
+  # json API specs
+  gem 'airborne', '0.3.7'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
