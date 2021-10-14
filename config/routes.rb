@@ -4,4 +4,6 @@ Rails.application.routes.draw do
       resources :procedures, only: [:index]
     end
   end
+
+  root to: 'application#index'
 end
